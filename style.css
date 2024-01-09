@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;  
 }
+ /* header start */
 
 header {
     background-color: #FFF;
@@ -10,7 +11,7 @@ header {
     width: 85%;
     max-width: 1320px;
     margin: 0 auto;
-    background-image: url('resources/Banner\ Image.png')
+    background-image: url('resources/Banner\ Image.png');
     
 }
 .banner-text-one {
@@ -25,17 +26,19 @@ header {
 .banner-text-two {
     color: #FFF;
     text-align: center;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 900;
     font-family: Merriweather;
-    padding: 3px 10px;
-}
+     padding: 3px 10px;
+} 
 
 .banner-text {
-    padding: 200px 300px ;
+    padding: 180px 200px ;
 }
 
 /* header section finished */
+
+/* part one  */
 
 .off {
     color: #F00;
@@ -53,6 +56,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .categories {
@@ -66,7 +70,7 @@ header {
 }
 
 .new-year-photo {
-    margin: 0 200px 60px 600px;   
+    margin: 0 200px 60px 220px;   
 }
 
 .container-two-flex {
@@ -79,13 +83,14 @@ header {
     margin-top: 80px;
     justify-content: space-between;
 }
+ /* part two */
 
 .midnight-party {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 900;
-    margin: 120px 100px 0 100px;
+    margin: 120px 50px 0 100px;
     text-align: left;
 }
 
@@ -95,11 +100,13 @@ header {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    margin: 30px 100px 0 100px;
+    margin: 30px 0 0 100px;
 }
 
 .join-now {
-    background-color: none;
+    background: none;
+    color: white;
+    border: none;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
@@ -109,18 +116,18 @@ header {
 .group-image {
     margin: 70px 150px 20px 40px;
 }
+ /* part three */
 
 .container-info {
    
     background-color: #ecc4c4;
-    margin: 80px 300px;
-    padding: 100px 200px 150px 450px;
+    margin: 80px 100px;
+    padding: 100px 200px 150px 150px;
     
     
 }
-
 div > .title-1 {
-    display: flex;
+    display: flex;  
     
 }
 .title {
@@ -129,14 +136,13 @@ text-align: center;
 font-family: Inter;
 font-size: 25px;
 font-weight: 600; 
-padding-bottom: 5px;
+padding-left: 200px;
 }
 .info {
     color: #070211;
 font-family: Inter;
 font-size: 25px;
 font-weight: 600;
-padding-bottom: 10px;
 padding-left: 10px;
 }
 
@@ -150,11 +156,13 @@ font-size: 25px;
 padding: 16px 28px;
 border: none;
 margin-top: 50px;
-margin-left: 150px;
+margin-left: 280px;
 }
 
+/* part four */
+
 .three-items {
-    margin: 130px 300px;
+    margin: 100px 100px;
     display: flex;
     
 
@@ -179,10 +187,10 @@ padding-top: 10px;
 .para-two {
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 20px;
+font-size: 16px;
 font-weight: 400;
 text-align: left;
-padding:20px 100px 40px 0 ;
+padding:20px 50px 40px 0 ;
 }
 
 .ellipse {
@@ -200,17 +208,17 @@ padding-bottom: 20px;
 .para-three {
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 20px;
+font-size: 16px;
 font-weight: 400;
 text-align: left;
-
 padding-right: 10px;
-
 }
 
 .group96 {
     padding-top: 30px;
 }
+
+/* part five */
 
 .functional {
     color: #070211;
@@ -225,7 +233,7 @@ padding-bottom: 10px;
 
 text-align: center;
 font-family: Merriweather;
-font-size: 72px;
+font-size: 58px;
 font-weight: 900;
 }
 
@@ -234,15 +242,30 @@ font-weight: 900;
 
 text-align: center;
 font-family: Inter;
-font-size: 20px;
+font-size: 16px;
 font-weight: 500;
-margin: 20px 300px;
-padding: 0 200px;
+margin: 20px 200px;
+padding: 0 100px;
 }
 
-.gift { margin-left: 500px;
+/* .gift { margin-left: 500px;
     margin-top: 80px;
+} */ 
+ .item  { display: flex;
+    justify-content: space-between;
+
 }
+.item h1 {
+    font-size: 50px;
+    color: red;
+    padding-top: 180px;
+}
+
+.item img {
+    /* width: 20%;
+    margin: 50px auto; */
+}
+
 
 .the-best-gift {
     color: #F00;
